@@ -1,2 +1,2 @@
 # NLP-COURSEWORK
-### This repo contains all the assignments for NLP course 
+### This repo contains all the assignments(Homework and Classwork) completed during the NLP course 
