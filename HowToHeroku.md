@@ -7,7 +7,7 @@
 ### 6) type as follows
 ###    git init
 ###    git echo "replace-with-iframe-code-found-in-dialogflow-integrations-tab-under-web-demo" >> index.html
-###    git echo "<?php header( 'Location: /index.html' ) ;  ?>" >> index.php
+###    git echo "\<?php header( 'Location: /index.html' ) ;  ?>" >> index.php
 ###    heroku apps:create website-name-yolo
 ###    git add .
 ###    git commit -m "yolo"
