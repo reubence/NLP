@@ -12,4 +12,4 @@
 ###    git add .
 ###    git commit -m "yolo"
 ###    git push heroku master
-### 7) website link = website-name-yolo.herokuapps.com/
+### 7) The hosted website link = website-name-yolo.herokuapps.com/
