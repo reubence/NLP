@@ -6,8 +6,8 @@
 ### 5) Type ">>git clone *https-link-of-github-repo*" in gitbash.
 ### 6) type as follows in gitbash
 ###    >>git init
-###    >>git echo "*paste code copied in step 3*" >> index.html
-###    >>git echo "\<?php header( 'Location: /index.html' ) ;  ?>" >> index.php
+###    >>echo "*paste code copied in step 3*" >> index.html
+###    >>echo "\<?php header( 'Location: /index.html' ) ;  ?>" >> index.php
 ###    >>heroku apps:create website-name-yolo
 ###    >>git add .
 ###    >>git commit -m "yolo"
