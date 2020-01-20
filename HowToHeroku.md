@@ -3,5 +3,13 @@
 ### 2) Create account on heroku website. Link to heroku locally by typing "heroku login" in cmd. Log in using web browser
 ### 3) Create a new repo using github gui. Copy the github repo link. Open gitbash on pc, make a new folder and navigate to it using "cd folder-path/".
 ### 4) Type "git clone https-link-of-github-repo" in gitbash.
-### 5) type "git init"
-###    git echo "iframe-code-found-in-dialogflow-integrations-tab-web-demo"
+### 5) type as follows
+###    git init
+###    git echo "replace-with-iframe-code-found-in-dialogflow-integrations-tab-under-web-demo" >> index.html
+###    git echo "<?php header( 'Location: /index.html' ) ;  ?>" >> index.php
+###    heroku apps:create website-name-yolo
+###    git add .
+###    git commit -m "yolo"
+###    git push heroku master
+
+### 6) website link = website-name-yolo.herokuapps.com/
